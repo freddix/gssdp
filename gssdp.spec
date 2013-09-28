@@ -1,7 +1,7 @@
 Summary:	Simple Service Discovery Protocol library
 Name:		gssdp
 Version:	0.13.2
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gssdp/0.13/%{name}-%{version}.tar.xz
@@ -90,7 +90,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libgssdp-1.0.so
 %{_datadir}/gir-1.0/GSSDP-1.0.gir
-%{_libdir}/libgssdp-1.0.la
 %{_includedir}/gssdp-1.0
 %{_pkgconfigdir}/gssdp-1.0.pc
 %{_datadir}/vala/vapi/gssdp-1.0.deps
