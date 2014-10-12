@@ -1,11 +1,11 @@
 Summary:	Simple Service Discovery Protocol library
 Name:		gssdp
-Version:	0.14.7
+Version:	0.14.10
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gssdp/0.14/%{name}-%{version}.tar.xz
-# Source0-md5:	c0bc863a58bdcdeafb2f17bc6c8ef206
+# Source0-md5:	bd355c3be1618390172c1f63e5afe58b
 URL:		http://gupnp.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
